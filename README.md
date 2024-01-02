@@ -7,13 +7,13 @@ It includes two endpoints:
    - **Endpoint:** `/get_reservation`
    - **Method:** GET
    - **Parameters:** `reservation_id` (string)
-   - **Description:** Retrieves details for a specific reservation based on the provided `reservation_id`.
+   - **Description:** Retrieves details for a specific reservation based on the provided `reservation_id` according to the data in reservations.csv
 
 2. **Get Availability**
    - **Endpoint:** `/get_availability`
    - **Method:** GET
    - **Parameters:** `reservation_id` (string)
-   - **Description:** Determines the availability of rooms in the hotel for the dates specified in the reservation.
+   - **Description:** Determines the availability of rooms in the hotel for the dates specified in the reservation according to the data in reservations.csv and hotel_information.json
 
 **run the app:**
 python app.py
